@@ -2,6 +2,12 @@
     pageEncoding="UTF-8"%>
  <%@ page import="java.sql.*, com.example.library.util.DBUtil" %>
  <%@ include file="navbar.jsp" %>
+ <%
+  String user = (String) session.getAttribute("username");
+  if (user == null) {
+      response.sendRedirect("Login.jsp");
+  }
+%>
  
  
 <!DOCTYPE html>
