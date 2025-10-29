@@ -21,10 +21,15 @@
         <li class="nav-item"><a class="nav-link" href="books.jsp">Books</a></li>
         <li class="nav-item"><a class="nav-link" href="members.jsp">Members</a></li>
         <li class="nav-item"><a class="nav-link" href="transactions.jsp">Transactions</a></li>
+        <li class="nav-item">
+  <a class="nav-link text-danger fw-bold" href="LogoutServlet">Logout</a>
+</li>
+        
       </ul>
     </div>
   </div>
 </nav>
+
 
 
 </body>
